@@ -23,7 +23,7 @@
 \documentclass[fleqn,10pt]{SelfArx} % Document font size and equations flushed left
 
 \usepackage[spanish, mexico]{babel} % Specify a different language here - english by default
-
+%\usepackage[english]{babel}
 \usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
 
 
@@ -94,14 +94,14 @@
 
 %\JournalInfo{Journal, Vol. XXI, No. 1, 1-5, 2013} % Journal information
 \JournalInfo{Semestre, 2020-1}
-\Archive{Additional note} % Additional notes (e.g. copyright, DOI, review/research article)
+\Archive{Herramientas Computacionales} % Additional notes (e.g. copyright, DOI, review/research article)
 
-\PaperTitle{Título del Proyecto} % Article title
+\PaperTitle{Crecimiento de Poblaciones} % Article title
 
-\Authors{Pedro Porras Flores\textsuperscript{1}*, Abraham Arellano Sánchez\textsuperscript{2}} % Authors
+\Authors{Pedro Porras Flores\textsuperscript{1}*, Abraham Arellano Sánchez\textsuperscript{2}, María González Ramírez\textsuperscript{2}} % Authors
 \affiliation{\textsuperscript{1}\textit{Departamento de Matemáticas y Mecánica, IMASS, UNAM}} % Author affiliation
 \affiliation{\textsuperscript{2}\textit{Escuela Nacional de Ciencias de la Tierra, UNAM}} % Author affiliation
-\affiliation{*\textbf{GitHub}: porras@ciencias.unam.mx} % Corresponding author
+\affiliation{*\textbf{GitHub}: } % Corresponding author
 
 \Keywords{Palabra clave 1, palabra clave 2, palabra clave 3, palabra clave 4.} % Keywords - if you don't want any simply remove all the text between the curly brackets
 \newcommand{\keywordname}{Palabras clave} % Defines the keywords heading name
@@ -126,6 +126,18 @@
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
+\section*{Preámbulo}
+
+Esto es un preámbulo 
+%\subsection*{subsección 1}
+La ecuación más hermosas del universo es: $e^{i \pi}  + 1 = 0$ \\ $\Omega$, $\hbar$
+
+Este trabajo se basa en \cite{murray2007mathematical}
+%\subsubsection*{subsubsección 1.1}
+%\subsection*{subsección 2}
+%\subsection*{subsección 3}
+%\subsection*{subsección 4}
+
 \section*{Introducción} % The \section*{} command stops section numbering
 
 \addcontentsline{toc}{section}{Introducción} % Adds this section to the table of contents
@@ -141,7 +153,12 @@ A continuación, se mostrará cómo redactar ecuaciones, hacer referencias a est
     ax^2 + bx + c = 0
 \end{equation}
 
-\noindent donde $a$, $b$ y $c$ son los coeficientes de la ecuación. Para encontrar el valor de $x$, es necesario aplicar la siguiente solución:
+La integral de, $\displaystyle \int_{0}^{2} x^2 \, dx$ es
+
+La derivada $\dfrac{d}{dx} \left( \dfrac{1}{x} \right)$
+La derivada $\displaystyle \sum_{k = 1}^{\infty} \left( \dfrac{1}{k} \right)$
+
+\noindent donde $a$, $b$ y $c$ son los coeficientes de la ecuación (\ref{eq:eg2}). Para encontrar el valor de $x$, es necesario aplicar la siguiente solución:
 
 \begin{equation}
     \label{eq:solucion}
@@ -320,11 +337,11 @@ Con respecto a los títulos de las figuras y tablas, estos deben sintetizar la i
 
 
 
-\begin{table*}[ht]
+\begin{table*}[ht!]
 \centering
 \caption{Concentraciones establecidas de nanopartículas de CuO y Pb en las muestras de agua destilada a 25 mL. Las muestras M-A y M-B no pudieron ser cuantificadas ya que la concentración de plomo después del tratamiento se encontró debajo del límite de detección (DLD), lo cual podría indicar una alta capacidad de adsorción de plomo.\\}
 
-    \begin{tabular}{ccrrrrr}
+    \begin{tabular}{c|crrrr|r}
     
         \toprule
         \textbf{ID} & \textbf{NPs (mg)} & \multicolumn{1}{c}{\textbf{$C_0$ Pb (mg L$^{-1}$)}} & \multicolumn{1}{c}{\textbf{$C_f$ Pb (mg L$^{-1}$)}} & \multicolumn{1}{c}{\textbf{\% Adsorción}} & \multicolumn{1}{c}{\textbf{$C_e$ (mg L$^{-1}$)}} & \multicolumn{1}{c}{\textbf{$q_e$ (mg g$^{-1}$)}} \\
@@ -390,3 +407,18 @@ So long and thanks for all the fish \cite{Figueredo:2009dg, Smith:2012qr}.
 %----------------------------------------------------------------------------------------
 
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

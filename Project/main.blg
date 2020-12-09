@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: sample.bib.bib
+I was expecting a `,' or a `}'---line 16 of file sample.bib.bib
+ : 
+ : @book{murray2007mathematical,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 4 entries,
+            1791 wiz_defined-function locations,
+            474 strings with 3993 characters,
+and the built_in function-call counts, 814 in all, are:
+= -- 73
+> -- 28
+< -- 1
++ -- 11
+- -- 7
+* -- 49
+:= -- 133
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 38
+empty$ -- 86
+format.name$ -- 7
+if$ -- 182
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 6
+newline$ -- 23
+num.names$ -- 4
+pop$ -- 14
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 14
+stack$ -- 0
+substring$ -- 46
+swap$ -- 5
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 7
+width$ -- 5
+write$ -- 46
+(There was 1 error message)
